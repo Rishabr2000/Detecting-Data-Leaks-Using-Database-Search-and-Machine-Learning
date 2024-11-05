@@ -1,0 +1,55 @@
+1. Setup the Project Files
+
+1.1 Save Project Files:
+
+Django Project (Helloworld):
+	Location: C:\Users\YourUsername\helloworld
+	Files: All files related to your Django project, including the manage.py, helloworld directory, hello app directory, and other necessary configurations.
+Storefront Directory:
+	Location: C:\Users\YourUsername\storefront
+	Files: All related files to the storefront project.
+
+
+
+2. Install Python and Create Virtual Environment
+
+2.1 Install Python:
+	Install Python in the directory
+	Add Python to your PATH during installation to make it accessible globally.
+2.2 Create a Virtual Environment:
+	Navigate to your project directory (helloworld)
+	
+	Open the command prompt and type:
+	cd path to directory
+
+	Create a virtual environment:
+	python -m venv myenv
+	
+	Activate the virtual environment:
+	On Windows:			On Mac:
+	myenv\Scripts\activate		source myenv/bin/activate
+
+3. Install Required Python Packages
+
+3.1 Install Django and Other Dependencies:
+	With the virtual environment activated, install Django and other necessary packages
+	pip install Django
+	pip install pandas
+	pip install scikit-learn
+	pip install joblib
+
+4. Running the Django Project
+
+4.1 Start the Development Server:
+	With your virtual environment activated, navigate to the helloworld directory:
+	cd C:\Users\YourUsername\helloworld
+
+	Run the Django development server:
+	python manage.py runserver
+
+5. Access the Application:
+
+Open a web browser and navigate to http://127.0.0.1:8000/ to use the application.
+To access the admin panel, go to http://127.0.0.1:8000/admin/ and log in with your superuser credentials.
+UserName - Rishabr2001
+Password - Scooby@123
